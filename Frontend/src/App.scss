@@ -1,0 +1,202 @@
+//Typeform CSS
+
+.css-1norszq {
+  background: rgba(#ff8f8f, 0.1) !important;
+  border-color: #ff2929 !important;
+  color: #ff2929 !important;
+}
+
+.css-kpt5v9 {
+  background: rgba(#ff8f8f, 0.1) !important;
+  color: #ff2929 !important;
+  border-color: rgba(#ff8f8f, 0.4) !important;
+}
+
+.css-kpt5v9.selected {
+  background: rgba(#ff8f8f, 0.1) !important;
+  color: #ff2929 !important;
+  border-color: rgba(#ff8f8f, 0.4) !important;
+}
+
+.css-1norszq.selected {
+  background: rgba(#ff2929, 0.75) !important;
+  color: #fff !important;
+}
+
+.css-1iqz1a2 {
+  position: relative;
+  background: #ff2929 !important;
+  color: #fff;
+  box-shadow: none !important;
+  outline: none !important;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.css-1norszq:hover {
+  background: rgba(#ff2929, 0.3) !important;
+}
+
+//Survey Pages CSS
+
+.sv_qstn .sq-root {
+
+  border: 1px solid gray;
+  border-left: 4px solid #ff2929;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.sv_qstn .sv-q-col-1,
+.sv-question .sv-q-col-1 {
+  padding: 5px !important;
+}
+
+
+.sv-root-modern .sv-question__title--answer {
+  background-color: transparent !important;
+}
+
+.sv-table td:first-child,
+.sv-table th:first-child {
+  padding-left: 1em;
+}
+
+.sv-footer__prev-btn,
+.sv-footer__edit-btn {
+  background-color: grey !important;
+}
+
+.sv-table tbody tr:last-child .sv-table__cell {
+  padding-bottom: 0.5em;
+}
+
+.sv-table {
+  background-color: transparent;
+}
+
+.sv-root-modern .sv_progress-buttons__list li.sv_progress-buttons__list-element--current::before {
+  border-color: #ff2929;
+  background-color: white;
+}
+
+.sv-btn .sv-btn--navigation .sv-footer__next-btn {
+  background-color: #ff2929;
+}
+
+.sv-root-modern .sv_progress-buttons__list li::before {
+  border-color: #ff8f8f;
+  background-color: #ff8f8f;
+}
+
+.sv-root-modern ::-webkit-scrollbar-thumb {
+  background: #ff2929;
+  margin-top: 10px;
+}
+
+.sv-header__text {
+  color: black;
+}
+
+.sv-root-modern .sv-progress__bar {
+  background-color: #ff2929;
+}
+
+.sv-root-modern .sv-question__title--answer {
+  background-color: #ff8f8f8f;
+}
+
+.sv-matrix__cell:first-child {
+  text-align: center;
+}
+
+.sv_progress-buttons__list li::after {
+  background-color: #ff2929 !important;
+}
+
+.sv-root-modern .sv-btn--navigation {
+  background-color: #ff2929;
+}
+
+.sv-root-modern .sv_progress-buttons__list li.sv_progress-buttons__list-element--passed::before {
+  border-color: #ff2929;
+  background-color: #ff2929;
+}
+
+.sq-title {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.sq-title-required {
+  color: red;
+}
+
+.sq-label {
+  margin-left: 30px;
+}
+
+.sq-item:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+nav .flex-column {
+  flex-direction: inherit !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.swal2-title {
+  color: #3C4858 !important;
+  font-size: 1.5rem !important;
+  font-family: "softfact", sans-serif;
+}
+
+.swal2-confirm {
+  background-color: #1c3169 !important;
+  color: white;
+  font-weight: 600 !important;
+  padding: 6px 16px !important;
+
+  &:hover{
+    background-color: #060b19 !important;
+  }
+}
+
+.swal2-confirm {
+  background-color: #1c3169 !important;
+  color: white;
+  font-weight: 600 !important;
+  padding: 6px 16px !important;
+  font-size: 0.875rem !important;
+  border-radius: 20px !important;
+
+  &:hover{
+    background-color: #060b19 !important;
+  }
+}
+
+.swal2-deny {
+  background-color: #ff5c5c !important;
+  color: white;
+  font-weight: 600 !important;
+  padding: 6px 16px !important;
+  font-size: 0.875rem !important;
+  border-radius: 20px !important;
+
+  &:hover{
+    background-color: #ff2929 !important;
+  }
+}
+
+input:-webkit-autofill { 
+  -webkit-background-clip: text;
+}
+
+.table_header{
+  font-weight: 600 !important;
+}

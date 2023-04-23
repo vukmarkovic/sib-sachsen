@@ -1,0 +1,24 @@
+<html>
+
+<head>HTML Wrapper</head>
+
+<body>
+    <div id="page">
+        <div id="header">Wrapper Demo</div>
+        <div id="content">
+            <h1>Thank you!</h1>
+            <button id="testButton">Test Button 1</button>
+            <button onclick="testButton2()">Test Button 2</button>
+            <script>
+                document.getElementById('testButton').onclick = function () {
+                    alert('Thank you! (Test Button 1)')
+                };
+                function testButton2() {
+                    alert('Test Button 2')
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

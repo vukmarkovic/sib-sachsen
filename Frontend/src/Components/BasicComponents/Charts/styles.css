@@ -1,0 +1,19 @@
+.myBubbleUI {
+    width: 100%;
+    min-width: 100%;
+    max-width: 500px;
+    height: 350px;
+    background-color: white;
+}
+
+.childComponent {
+    /*width: 100%; /* width expands to fit bubble */
+    /*height: 100%; /* width expands to fit bubble */
+    border-radius: 50%; /* rounded border forms a circle */
+    /*background-color: burlywood;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}

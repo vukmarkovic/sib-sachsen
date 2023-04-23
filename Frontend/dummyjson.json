@@ -1,0 +1,3724 @@
+{
+  "trust": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "trust",
+      "name": "collective_trust",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Trust",
+      "description": "Trust means taking the first step. Head held high. With the conviction that the ground will support you.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "trust",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "experience",
+          "sincerity",
+          "openness"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_a_trust_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 0,
+          "human_launch_time": "This module will be unlocked once the previous modules have been completed.",
+          "state": "done"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_a_trust_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 69120,
+          "human_launch_time": "This module will be unlocked once the previous modules have been completed.",
+          "state": "done"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_a_trust_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 345600,
+          "human_launch_time": "This module will be unlocked once the previous modules have been completed.",
+          "state": "done"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_a_trust_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Trust in the team begins with each individual team member. Trust in the team begins with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 622080,
+          "human_launch_time": "This module will be unlocked once the previous modules have been completed.",
+          "state": "done",
+          "subSubModules": {
+            "experience": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_a_trust_d_individualtools_a_experience",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Experiences",
+              "description": "Deal with your past experiences.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 1382400,
+              "human_launch_time": "This module will be unlocked soon. 4 days 21 hours to go. We will inform you by email.",
+              "state": "done"
+            },
+            "sincerity": {
+              "minutes": "~15",
+              "delay": 1,
+              "name": "collective_a_trust_d_individualtools_b_sincerity",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Sincerity",
+              "description": "Practice saying what you think and describing how you feel.",
+              "step": 6,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 1497600,
+              "human_launch_time": "This module will be unlocked soon. 6 days 5 hours to go. We will inform you by email.",
+              "state": "done"
+            },
+            "openness": {
+              "minutes": "~15",
+              "delay": 1,
+              "name": "collective_a_trust_d_individualtools_c_openness",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Openness",
+              "description": "Work on your openness and thus create the basis for a better relationship of trust in your team.",
+              "step": 7,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 1612800,
+              "human_launch_time": "This module will be unlocked soon. 1 week 13 hours to go. We will inform you by email.",
+              "state": "done"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_a_trust_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Find out what you as a team need to trust each other. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 967680,
+          "human_launch_time": "This module will be unlocked soon. 2 hours 28 minutes to go. We will inform you by email.",
+          "state": "done"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_a_trust_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 1313280,
+          "human_launch_time": "This module will be unlocked soon. 4 days 2 hours to go. We will inform you by email.",
+          "state": "done"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": false,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 100
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 100
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 100
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 100
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 100
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 100
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 100,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 100
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "done"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "communication": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "communication",
+      "name": "collective_communication",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Communication",
+      "description": "Communication is interpersonal interaction. As such it determines the quality of the relationship between people and can be consciously chosen and changed.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "communication",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "structure",
+          "volume",
+          "style"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_b_communication_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 1382400,
+          "human_launch_time": "This module will be unlocked soon. 4 days 21 hours to go. We will inform you by email.",
+          "state": "done"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_b_communication_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 1451520,
+          "human_launch_time": "This module will be unlocked soon. 5 days 16 hours to go. We will inform you by email.",
+          "state": "done"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_b_communication_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 1728000,
+          "human_launch_time": "This module will be unlocked soon. 1 week 1 day to go. We will inform you by email.",
+          "state": "done"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_b_communication_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Good communication in a team begins with each individual team member. Good communication in a team starts with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 2004480,
+          "human_launch_time": "This module will be unlocked soon. 1 week 5 days to go. We will inform you by email.",
+          "state": "done",
+          "subSubModules": {
+            "structure": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_b_communication_d_individualtools_a_structure",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Structure of Communication",
+              "description": "Create clarity of tasks and objectives. Lead your conversations consciously and with focus. Plan your time.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 2764800,
+              "human_launch_time": "This module will be unlocked soon. 2 weeks 6 days to go. We will inform you by email.",
+              "state": "done"
+            },
+            "volume": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_b_communication_d_individualtools_b_volume",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Volume of Communication",
+              "description": "Constructively integrate the ideas of all discussion participants. Find the appropriate distribution of discussion parts. Share the right amount of detailed information.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 2880000,
+              "human_launch_time": "This module will be unlocked soon. 3 weeks 1 day to go. We will inform you by email.",
+              "state": "done"
+            },
+            "style": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_b_communication_d_individualtools_c_style",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Style of Communication",
+              "description": "Make your communication style appreciative and direct.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 2995200,
+              "human_launch_time": "This module will be unlocked soon. 3 weeks 2 days to go. We will inform you by email.",
+              "state": "done"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_b_communication_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Work on your communication. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 2350080,
+          "human_launch_time": "This module will be unlocked soon. 2 weeks 2 days to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_b_communication_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 2695680,
+          "human_launch_time": "This module will be unlocked soon. 2 weeks 6 days to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "structure": 0,
+                "volume": 0,
+                "style": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 67
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "todo"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "mindfulness": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "mindfulness",
+      "name": "collective_mindfulness",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Mindfulness",
+      "description": "Mindfulness means to act in a self-determined way instead of reacting automatically. Not to evaluate situations, but to take unbiased chances. Mindfulness means to live completely in the current moment. Moment by moment.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "mindfulness",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "pause",
+          "awareness",
+          "intention",
+          "focus"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_c_mindfulness_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 2764800,
+          "human_launch_time": "This module will be unlocked soon. 2 weeks 6 days to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_c_mindfulness_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 2833920,
+          "human_launch_time": "This module will be unlocked soon. 3 weeks 16 hours to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_c_mindfulness_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 3110400,
+          "human_launch_time": "This module will be unlocked soon. 3 weeks 3 days to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_c_mindfulness_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Mindfulness in the team begins with each individual team member. Mindfulness in the team begins with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 3386880,
+          "human_launch_time": "This module will be unlocked soon. 4 weeks 2 hours to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "pause": {
+              "minutes": "~20",
+              "delay": 5,
+              "name": "collective_c_mindfulness_d_individualtools_a_pause",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Pause",
+              "description": "Find hold in the moment. Step back and observe.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 4147200,
+              "human_launch_time": "This module will be unlocked soon. 1 month 5 days to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "awareness": {
+              "minutes": "~20",
+              "delay": 5,
+              "name": "collective_c_mindfulness_d_individualtools_b_awareness",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Becoming Aware",
+              "description": "Become aware of your current physical, mental and emotional state. Become aware of your experienced situation.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 4233600,
+              "human_launch_time": "This module will be unlocked soon. 1 month 6 days to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "intention": {
+              "minutes": "~20",
+              "delay": 5,
+              "name": "collective_c_mindfulness_d_individualtools_c_intention",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Intention",
+              "description": "Meet yourself and others with appreciation, kindness and acceptance.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 4320000,
+              "human_launch_time": "This module will be unlocked soon. 1 month 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "focus": {
+              "minutes": "~20",
+              "delay": 5,
+              "name": "collective_c_mindfulness_d_individualtools_d_focus",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Focus",
+              "description": "Be free in your decisions by consciously directing your attention.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 4406400,
+              "human_launch_time": "This module will be unlocked soon. 1 month 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~20",
+          "delay": 0,
+          "name": "collective_c_mindfulness_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Be mindful. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 3732480,
+          "human_launch_time": "This module will be unlocked soon. 1 month 1 day to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_c_mindfulness_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 4078080,
+          "human_launch_time": "This module will be unlocked soon. 1 month 5 days to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "pause": 0,
+                "awareness": 0,
+                "intention": 0,
+                "focus": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "pause": 0,
+                "awareness": 0,
+                "intention": 0,
+                "focus": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "motivation": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "motivation",
+      "name": "collective_motivation",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Motivation",
+      "description": "Without motivation no behaviour. Motivation influences the selection of goals and depends on the subjectively evaluated target value.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "motivation",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "arousal",
+          "direction",
+          "persistence"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_d_motivation_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 4147200,
+          "human_launch_time": "This module will be unlocked soon. 1 month 5 days to go. We will inform you by email.",
+          "state": "done"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_d_motivation_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 4216320,
+          "human_launch_time": "This module will be unlocked soon. 1 month 6 days to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_d_motivation_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 4492800,
+          "human_launch_time": "This module will be unlocked soon. 1 month 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_d_motivation_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Motivation in a team begins with each individual team member. Motivation in the team starts with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 4769280,
+          "human_launch_time": "This module will be unlocked soon. 1 month 1 week to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "arousal": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_d_motivation_d_individualtools_a_arousal",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Activating Motivation",
+              "description": "Find out what you need to proactively improve your current condition.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 5529600,
+              "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "direction": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_d_motivation_d_individualtools_b_direction",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Directed Motivation",
+              "description": "Focus your motivation on a goal.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 5644800,
+              "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "persistence": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_d_motivation_d_individualtools_c_persistence",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Sustained Motivation",
+              "description": "Persistently pursue your goals.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 5760000,
+              "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_d_motivation_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Pick up speed. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 5114880,
+          "human_launch_time": "This module will be unlocked soon. 1 month 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_d_motivation_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 5460480,
+          "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 100
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "arousal": 0,
+                "direction": 0,
+                "persistence": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "arousal": 0,
+                "direction": 0,
+                "persistence": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 17
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "selfefficacy": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "selfefficacy",
+      "name": "collective_selfefficacy",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Self-efficacy",
+      "description": "Self-efficacy describes the confidence in achieving the desired result with your abilities. It is the belief that you will be effective in your actions.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "selfefficacy",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "securityofcompetence",
+          "convictionofeffect",
+          "dealingwithdifficulties"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_e_selfefficacy_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 5529600,
+          "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_e_selfefficacy_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 5598720,
+          "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_e_selfefficacy_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 5875200,
+          "human_launch_time": "This module will be unlocked soon. 1 month 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_e_selfefficacy_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Self-efficacy in a team begins with each individual team member. Self-efficacy in the team begins with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 6151680,
+          "human_launch_time": "This module will be unlocked soon. 1 month 4 weeks to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "securityofcompetence": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_e_selfefficacy_d_individualtools_a_securityofcompetence",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Competence Awareness",
+              "description": "Trust in your own competencies.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 6912000,
+              "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "convictionofeffect": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_e_selfefficacy_d_individualtools_b_convictionofeffect",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Conviction of Effect",
+              "description": "Be convinced that your behavior is effective.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 7027200,
+              "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "dealingwithdifficulties": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_e_selfefficacy_d_individualtools_c_dealingwithdifficulties",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Dealing with adversity",
+              "description": "Trust in your own ability to solve difficult situations well.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 7142400,
+              "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_e_selfefficacy_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Work on your self-efficacy. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 6497280,
+          "human_launch_time": "This module will be unlocked soon. 2 months 3 days to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_e_selfefficacy_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 6842880,
+          "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "securityofcompetence": 0,
+                "convictionofeffect": 0,
+                "dealingwithdifficulties": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "securityofcompetence": 0,
+                "convictionofeffect": 0,
+                "dealingwithdifficulties": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "learning": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "learning",
+      "name": "collective_learning",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Learning",
+      "description": "Learning potential is the willingness to constantly question and review your own behavior depending on the situation and to change it if necessary.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "learning",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "learningability",
+          "learningmotivation"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_f_learning_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 6912000,
+          "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_f_learning_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 6981120,
+          "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_f_learning_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 7257600,
+          "human_launch_time": "This module will be unlocked soon. 2 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_f_learning_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Learning in a team begins with each individual team member. Learning in a team starts with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 7534080,
+          "human_launch_time": "This module will be unlocked soon. 2 months 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "learningability": {
+              "minutes": null,
+              "delay": 5,
+              "name": "collective_f_learning_d_individualtools_a_learningability",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Ability to Learn",
+              "description": "Work on your conviction that you can learn things.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 8294400,
+              "human_launch_time": "This module will be unlocked soon. 2 months 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "learningmotivation": {
+              "minutes": null,
+              "delay": 1,
+              "name": "collective_f_learning_d_individualtools_b_learningmotivation",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Motivation to Learn",
+              "description": "Develop the motivation to approach your own development consciously and actively.",
+              "step": 7,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 8467200,
+              "human_launch_time": "This module will be unlocked soon. 2 months 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_f_learning_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Learn. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 7879680,
+          "human_launch_time": "This module will be unlocked soon. 2 months 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_f_learning_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 8225280,
+          "human_launch_time": "This module will be unlocked soon. 2 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "learningability": 0,
+                "learningmotivation": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "learningability": 0,
+                "learningmotivation": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "proactivity": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "proactivity",
+      "name": "collective_proactivity",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Proactivity",
+      "description": "Proactivity is channelled creativity; where the channel consists of the desire to adapt present behavior to influence future outcomes.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "proactivity",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "changeintention",
+          "vision",
+          "takingcharge"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_g_proactivity_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 8294400,
+          "human_launch_time": "This module will be unlocked soon. 2 months 3 weeks to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_g_proactivity_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 8363520,
+          "human_launch_time": "This module will be unlocked soon. 2 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_g_proactivity_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 8640000,
+          "human_launch_time": "This module will be unlocked soon. 2 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_g_proactivity_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Proactivity in a team begins with each individual team member. Proactivity in the team starts with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 8916480,
+          "human_launch_time": "This module will be unlocked soon. 3 months 2 hours to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "changeintention": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_g_proactivity_d_individualtools_a_changeintention",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Intention to Change",
+              "description": "Get a desire for positive change.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 9676800,
+              "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "vision": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_g_proactivity_d_individualtools_b_vision",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Target Visualization",
+              "description": "Focus your desire for improvement on a concrete goal.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 9792000,
+              "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "takingcharge": {
+              "minutes": "~15",
+              "delay": 1,
+              "name": "collective_g_proactivity_d_individualtools_c_takingcharge",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Become Active",
+              "description": "Let\u00b4s go!",
+              "step": 7,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 9907200,
+              "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_g_proactivity_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Be proactive. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 9262080,
+          "human_launch_time": "This module will be unlocked soon. 3 months 4 days to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_g_proactivity_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 9607680,
+          "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "changeintention": 0,
+                "vision": 0,
+                "takingcharge": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "changeintention": 0,
+                "vision": 0,
+                "takingcharge": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "responsibility": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "responsibility",
+      "name": "collective_responsibility",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Responsibility",
+      "description": "Taking responsibility for you means taking responsibility for the consequences of your decisions and actions. For better or for worse. Taking responsibility for you leads to self-determination and requires courage and authenticity.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "responsibility",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "ownership",
+          "leadership"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_h_responsibility_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 9676800,
+          "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_h_responsibility_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 9745920,
+          "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_h_responsibility_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 10022400,
+          "human_launch_time": "This module will be unlocked soon. 3 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_h_responsibility_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Responsibility in a team begins with each individual team member. Responsibility in the team begins with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 10298880,
+          "human_launch_time": "This module will be unlocked soon. 3 months 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "ownership": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_h_responsibility_d_individualtools_a_ownership",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Acceptance of Responsibility",
+              "description": "Acknowledge the responsibility for your own actions.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 11059200,
+              "human_launch_time": "This module will be unlocked soon. 3 months 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "leadership": {
+              "minutes": "~15",
+              "delay": 1,
+              "name": "collective_h_responsibility_d_individualtools_b_leadership",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Leadership",
+              "description": "Develop the ability to set the direction for yourself and others.",
+              "step": 6,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 11232000,
+              "human_launch_time": "This module will be unlocked soon. 3 months 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_h_responsibility_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Take responsibility. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 10644480,
+          "human_launch_time": "This module will be unlocked soon. 3 months 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_h_responsibility_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 10990080,
+          "human_launch_time": "This module will be unlocked soon. 3 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "ownership": 0,
+                "leadership": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "ownership": 0,
+                "leadership": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "emotionalintelligence": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "emotionalintelligence",
+      "name": "collective_emotionalintelligence",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Emotional Intelligence",
+      "description": "Emotional intelligence is the ability to recognize, understand and manage your own and other people's emotions. If you use your emotions intelligently, you include them in your decisions and actions, but do not let them blindly guide you.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "emotionalintelligence",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "understanding",
+          "integration"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_i_emotionalintelligence_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 11059200,
+          "human_launch_time": "This module will be unlocked soon. 3 months 3 weeks to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_i_emotionalintelligence_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 11128320,
+          "human_launch_time": "This module will be unlocked soon. 3 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_i_emotionalintelligence_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 11404800,
+          "human_launch_time": "This module will be unlocked soon. 3 months 4 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_i_emotionalintelligence_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Emotional intelligence in a team begins with each individual team member. Emotional intelligence in the team starts with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 11681280,
+          "human_launch_time": "This module will be unlocked soon. 4 months 2 days to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "understanding": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_i_emotionalintelligence_d_individualtools_a_understanding",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Understannding of Emotions",
+              "description": "Develop an understanding of your own emotions and those of others.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 12441600,
+              "human_launch_time": "This module will be unlocked soon. 4 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "integration": {
+              "minutes": "~15",
+              "delay": 1,
+              "name": "collective_i_emotionalintelligence_d_individualtools_b_integration",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Integration of Emotions",
+              "description": "Develop a competent handling of your own emotions and foreign emotions.",
+              "step": 6,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 12614400,
+              "human_launch_time": "This module will be unlocked soon. 4 months 1 week to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_i_emotionalintelligence_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Work on your Emotional Intelligence. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 12026880,
+          "human_launch_time": "This module will be unlocked soon. 4 months 6 days to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_i_emotionalintelligence_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 12372480,
+          "human_launch_time": "This module will be unlocked soon. 4 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "understanding": 0,
+                "integration": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "understanding": 0,
+                "integration": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  },
+  "resilience": {
+    "basicData": {
+      "minutes": null,
+      "delay": 0,
+      "key": "resilience",
+      "name": "collective_resilience",
+      "version": "0.0.1",
+      "index": true,
+      "title": "Resilience",
+      "description": "Resilience means affirming life. Nevertheless. Resilience means being in tune with yourself and your situation despite external resistance.",
+      "type": "intro"
+    },
+    "subModules": {
+      "teamId": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+      "module": "resilience",
+      "subModules": [
+        "measure",
+        "inspiration",
+        "motivation",
+        "individualtools",
+        "collectivetools",
+        "measure2"
+      ],
+      "subSubModules": {
+        "measure": [],
+        "inspiration": [],
+        "motivation": [],
+        "individualtools": [
+          "strength",
+          "flexibility"
+        ],
+        "collectivetools": [],
+        "measure2": []
+      },
+      "subModule": null,
+      "section": "organisation",
+      "modulesData": {
+        "measure": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_j_resilience_a_measure",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Change can only start from where you are. Let us make your current state scientifically measurable.",
+          "step": 1,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 12441600,
+          "human_launch_time": "This module will be unlocked soon. 4 months 1 week to go. We will inform you by email.",
+          "state": "todo"
+        },
+        "inspiration": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_j_resilience_b_inspiration",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Inspiration",
+          "description": "Dive into the focus theme and let yourself be inspired.",
+          "step": 2,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 12510720,
+          "human_launch_time": "This module will be unlocked soon. 4 months 1 week to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "motivation": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_j_resilience_c_motivation",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Why-Search",
+          "description": "Discover your WHY and create the basis for your change.",
+          "step": 3,
+          "time_factor": 2,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 12787200,
+          "human_launch_time": "This module will be unlocked soon. 4 months 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "individualtools": {
+          "minutes": null,
+          "delay": 0,
+          "name": "collective_j_resilience_d_individualtools",
+          "version": "0.0.1",
+          "index": false,
+          "title": "Individual Tools",
+          "description": "Resilience in a team begins with each individual team member. Resilience in the team begins with you.",
+          "time_factor": 2.5,
+          "time_to_wait": 13063680,
+          "human_launch_time": "This module will be unlocked soon. 4 months 2 weeks to go. We will inform you by email.",
+          "state": "todo-not-now",
+          "subSubModules": {
+            "strength": {
+              "minutes": "~15",
+              "delay": 5,
+              "name": "collective_j_resilience_d_individualtools_a_strength",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Strength",
+              "description": "Develop your strength to deal with the adversities of life.",
+              "step": 5,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 13824000,
+              "human_launch_time": "This module will be unlocked soon. 4 months 3 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            },
+            "flexibility": {
+              "minutes": "~15",
+              "delay": 1,
+              "name": "collective_j_resilience_d_individualtools_b_flexibility",
+              "version": "0.0.1",
+              "index": true,
+              "title": "Flexibility",
+              "description": "Work on your flexible willingness to change, which helps you to stay healthy.",
+              "step": 6,
+              "parameters": {
+                "p_has_skipped_answers": [
+                  "a01_yes",
+                  "a02_no"
+                ]
+              },
+              "time_to_wait": 13996800,
+              "human_launch_time": "This module will be unlocked soon. 4 months 4 weeks to go. We will inform you by email.",
+              "state": "todo-not-now"
+            }
+          }
+        },
+        "collectivetools": {
+          "minutes": "~15",
+          "delay": 0,
+          "name": "collective_j_resilience_e_collectivetools",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Collective Tools",
+          "description": "Work on your resilience. Together, as a team.",
+          "step": 8,
+          "time_factor": 2.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 13409280,
+          "human_launch_time": "This module will be unlocked soon. 4 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        },
+        "measure2": {
+          "minutes": "~10",
+          "delay": 0,
+          "name": "collective_j_resilience_f_measure2",
+          "version": "0.0.1",
+          "index": true,
+          "title": "Status Quo",
+          "description": "Discover how far you have come. We make your progress scientifically measurable.",
+          "step": 9,
+          "time_factor": 0.5,
+          "parameters": {
+            "p_has_skipped_answers": [
+              "a01_yes",
+              "a02_no"
+            ]
+          },
+          "time_to_wait": 13754880,
+          "human_launch_time": "This module will be unlocked soon. 4 months 3 weeks to go. We will inform you by email.",
+          "state": "todo-not-now"
+        }
+      },
+      "startDate": "2023-02-18T09:37:24.000000Z",
+      "project": {
+        "id": "06de6e85-cdbc-4d99-a8b6-d5db384dbc2c",
+        "name": "team_development",
+        "description": "team_development",
+        "type": "team_development",
+        "created_by": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+        "archived": null,
+        "created_at": "2023-02-18T10:24:13+01:00",
+        "updated_at": "2023-02-18T10:24:13+01:00",
+        "team_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+        "survey_id": null,
+        "team": {
+          "id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+          "parent_id": null,
+          "name": "users_v2",
+          "type": "team",
+          "is_demo": 0,
+          "created_by": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+          "created_at": "2023-02-16T14:06:47+01:00",
+          "updated_at": "2023-02-16T14:06:47+01:00",
+          "service_type": null,
+          "profiles": [
+            {
+              "id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+              "user_id": "ec5e02ab-b541-4953-bed1-cdfe4b4b7c50",
+              "parent_id": null,
+              "gender": null,
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "1",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T10:59:19+01:00",
+              "updated_at": "2023-02-07T10:59:19+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "391796f1-7dd3-47b0-b213-18e09ce6edc2",
+                "created_at": "2023-02-16T13:06:47.000000Z",
+                "updated_at": "2023-02-16T13:06:47.000000Z"
+              }
+            },
+            {
+              "id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+              "user_id": "bf7fcc20-495c-457b-85b9-de8c51981df4",
+              "parent_id": null,
+              "gender": "profile.male",
+              "salutation": null,
+              "first_name": "user",
+              "last_name": "2",
+              "day_of_birth": null,
+              "photo_id": null,
+              "header_picture_id": null,
+              "telephone": null,
+              "position": null,
+              "type": "private",
+              "earned_milli_credits": 0,
+              "description": null,
+              "affiliate_code": null,
+              "demo_mode": 0,
+              "is_demo": 0,
+              "created_at": "2023-02-07T11:08:34+01:00",
+              "updated_at": "2023-02-13T12:13:32+01:00",
+              "deleted_at": null,
+              "active_subscription_id": null,
+              "pivot": {
+                "organisation_id": "cd73f73c-9b7b-4c77-b7ad-ffc851d6098f",
+                "profile_id": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+                "created_at": "2023-02-16T13:06:48.000000Z",
+                "updated_at": "2023-02-16T13:06:48.000000Z"
+              }
+            }
+          ]
+        }
+      },
+      "hasTodoModule": true,
+      "progress": {
+        "subModules": {
+          "measure": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "inspiration": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "motivation": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "individualtools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": {
+                "strength": 0,
+                "flexibility": 0
+              },
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": {
+                "strength": 0,
+                "flexibility": 0
+              },
+              "progress": 0
+            }
+          },
+          "collectivetools": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          },
+          "measure2": {
+            "391796f1-7dd3-47b0-b213-18e09ce6edc2": {
+              "subSubModules": [],
+              "progress": 0
+            },
+            "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": {
+              "subSubModules": [],
+              "progress": 0
+            }
+          }
+        },
+        "progress": {
+          "391796f1-7dd3-47b0-b213-18e09ce6edc2": 0,
+          "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679": 0
+        }
+      },
+      "profileId": "bb255884-4b5b-4fcc-ac4d-d0b2ecf17679",
+      "moduleState": "locked"
+    },
+    "status": "success",
+    "message": "Profile has been updated"
+  }
+}

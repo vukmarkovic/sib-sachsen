@@ -1,0 +1,66 @@
+set dotenv-load
+
+# 
+# install just on mac
+# > brew install just
+#
+# generate todo file (html)
+# > just todos
+#
+
+# show this help
+help:
+  just -l
+
+# start dev server
+dev:
+  npm run start
+
+# build for production and commit into laravel project
+build:
+  #!/bin/bash
+  if [ ! -z "$PROJECT_API" ]; then
+    npm run build
+    rm -rf "$PROJECT_API/resources/react"
+    cp -r build "$PROJECT_API/resources/react"
+    COMMIT=$(git rev-parse --short HEAD)
+    cd "$PROJECT_API"
+    git add -u resources/react
+    git add resources/react
+    git commit -t <(echo ADD react version $COMMIT)
+  else
+    echo 'PROJECT_API missing in .env'
+  fi
+
+# show todos in code base
+todos:
+  #!/bin/sh
+  (
+    echo '<table border="1" style="font-size:12px">'
+    (
+      git grep -l TODO src scripts \
+        | while read line; do 
+          git blame -fne $line \
+            | awk -v pwd="$PWD" '/TODO/ {
+              date=$5" "$6
+              file=$2
+              path=pwd"/"file
+              line=substr($8, 0, index($8, ")") - 1)
+              comment=substr($0, index($0, "TODO"))
+              gsub(/<[^>]*>/, "", comment)
+              print \
+                "<tr>" \
+                "<td>"date"</td>" \
+                "<td>"comment"</td>", \
+                "<td>" \
+                  "<a href=\"vscode://file/"path":"line"\">" \
+                    file":"line \
+                  "</a>" \
+                "</td>" \
+                "</tr>"
+            }'
+        done
+    ) | sort -r
+    echo "</table>"
+  ) > todos/$(date +%y%m%d).html
+  open todos/$(date +%y%m%d).html
